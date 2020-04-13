@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './components/header/Header';
 import MainBody from './components/mainbody/MainBody';
 import './App.css';
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to Twin Peaks</h1>
+        <Header />
       </header>
       <MainBody />
     </div>
