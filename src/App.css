@@ -1,10 +1,11 @@
 .App {
   text-align: center;
   padding: 0.5em;
+  background-image: url("./assets/blackwhitezigraw.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App-link {
   color: #61dafb;
 }
-
-

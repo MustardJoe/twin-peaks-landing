@@ -1,8 +1,10 @@
 import React from 'react';
+import styles from './mainbody.module.css';
+console.log(styles);
 
 const MainBody = () => {
   return (
-    <div>
+    <div className={styles.mainbody}>
       Welcome to Twin Peaks, the REST API. This API returns two types of
       data, Character information and Quotes.
 
