@@ -46,7 +46,8 @@ const MainBody = () => {
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         *The routes ending in ':id' require a character or quote id (the id supplied by the 
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        MongoDB in the '_id' field for each character and quote entry). 
+        MongoDB in the '_id' field for each character and quote entry).
+        To find that information, qerry the two main routes.
       </p>
 
       <p>
