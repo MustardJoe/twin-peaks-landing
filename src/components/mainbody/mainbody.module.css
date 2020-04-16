@@ -3,5 +3,17 @@
 .mainbody {
   font-family: 'Baloo Paaji 2', cursive;
   font-size: 1.4em;
+  background-color: rgba(0, 0, 0, 0.466);
   color: lawngreen;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.invertText {
+  background-color: lawngreen;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 0.4em;
 }
