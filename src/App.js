@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/header/Header';
 import MainBody from './components/mainbody/MainBody';
+import Footer from './components/footer/Footer';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Header />
       </header>
       <MainBody />
+      <Footer />
     </div>
   );
 }
