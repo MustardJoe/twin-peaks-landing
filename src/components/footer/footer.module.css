@@ -1,2 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap');
 
+.footerDiv {
+  margin-top: -2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 1.4em;
+  background-color: rgba(0, 0, 0, 0.466);
+  background-color: lawngreen;
+  color: rgb(0, 0, 0);
+}

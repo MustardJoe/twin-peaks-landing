@@ -4,10 +4,14 @@ import styles from './mainbody.module.css';
 const MainBody = () => {
   return (
     <div className={styles.mainbody}>
-      Welcome to Twin Peaks, the REST API, the landing page. 
+      Welcome to Twin Peaks, the REST API, the landing page, by <a
+        href="https://www.jonforney.com"
+        target="_blank" rel="noopener noreferrer">me</a>, Jon. 
       
       <p>
-        <span className={styles.invertText}>The API is live at <a href="https://twin-peaks.herokuapp.com/" 
+        <span className={styles.invertText}>The API is live at <a
+          href="https://twin-peaks.herokuapp.com/" 
+          target="_blank" rel="noopener noreferrer"
         >https://twin-peaks.herokuapp.com/</a></span>
       </p>
 
@@ -22,8 +26,19 @@ const MainBody = () => {
       <p>
         <span className={styles.invertText}>basic routes:</span>
         <ul>
-          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters</li>
-          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/quotes</li>
+          <li className={styles.codeBlock}>
+            <a
+              href="https://twin-peaks.herokuapp.com/api/v1/characters"
+              target="_blank" rel="noopener noreferrer">
+              https://twin-peaks.herokuapp.com/api/v1/characters
+            </a>
+          </li>
+          <li className={styles.codeBlock}>
+            <a href="https://twin-peaks.herokuapp.com/api/v1/quotes"
+              target="_blank" rel="noopener noreferrer">
+            https://twin-peaks.herokuapp.com/api/v1/quotes
+            </a>
+          </li>
         </ul>
       </p>
 
@@ -39,18 +54,48 @@ const MainBody = () => {
       <p>
         <span className={styles.invertText}>characters routes</span>
         <ul>
-          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters/:id</li>
-          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters/randomCharacter</li>
-          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters/allCharsAllQuotes</li>
-          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters/characterWithQuotes/:id</li>
+          <li className={styles.codeBlock}>
+            <a href="https://twin-peaks.herokuapp.com/api/v1/characters/5e8fb51f959b3e0017376fa0"
+              target="_blank" rel="noopener noreferrer">
+            https://twin-peaks.herokuapp.com/api/v1/characters/:id
+            </a>
+          </li>
+          <li className={styles.codeBlock}>
+            <a href="https://twin-peaks.herokuapp.com/api/v1/characters/randomCharacter"
+              target="_blank" rel="noopener noreferrer">
+            https://twin-peaks.herokuapp.com/api/v1/characters/randomCharacter
+            </a>
+          </li>
+          <li className={styles.codeBlock}>
+            <a href="https://twin-peaks.herokuapp.com/api/v1/characters/allCharsAllQuotes"
+              target="_blank" rel="noopener noreferrer">
+            https://twin-peaks.herokuapp.com/api/v1/characters/allCharsAllQuotes
+            </a>
+          </li>
+          <li className={styles.codeBlock}>
+            <a href="https://twin-peaks.herokuapp.com/api/v1/characters/characterWithQuotes/5e8fb51f959b3e0017376fa0"
+              target="_blank" rel="noopener noreferrer">
+            https://twin-peaks.herokuapp.com/api/v1/characters/characterWithQuotes/:id
+            </a>
+          </li>
         </ul>
       </p>
 
       <p>
         <span className={styles.invertText}>quotes routes:</span>
         <ul>
-          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/quotes/:id</li>
-          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/quotes/randomQuote</li>
+          <li className={styles.codeBlock}>
+            <a href="https://twin-peaks.herokuapp.com/api/v1/quotes/5e93faf4ca886b0017ded34f"
+              target="_blank" rel="noopener noreferrer">
+            https://twin-peaks.herokuapp.com/api/v1/quotes/:id
+            </a>
+          </li>
+          <li className={styles.codeBlock}>
+            <a href="https://twin-peaks.herokuapp.com/api/v1/quotes/randomQuote"
+              target="_blank" rel="noopener noreferrer">
+            https://twin-peaks.herokuapp.com/api/v1/quotes/randomQuote
+            </a>
+          </li>
         </ul>
       </p>
 
@@ -66,8 +111,9 @@ const MainBody = () => {
         Please note, the information regarding how to consume this site
         assumes the user is familure with the basic REST API concept. If you would
         like more information on the basics of this topic, please head over 
-        to <a href="https://restfulapi.net/">https://restfulapi.net/</a> to learn
-        more.
+        to <a href="https://restfulapi.net/"
+          target="_blank" rel="noopener noreferrer">https://restfulapi.net/</a> to
+        learn more.
       </p>
     </div>
   );
