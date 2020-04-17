@@ -1,44 +1,56 @@
 import React from 'react';
 import styles from './mainbody.module.css';
-console.log(styles);
 
 const MainBody = () => {
   return (
     <div className={styles.mainbody}>
       Welcome to Twin Peaks, the REST API, the landing page. 
       
-      <p><span className={styles.invertText}>The API is live at <a href="https://twin-peaks.herokuapp.com/" 
-      >https://twin-peaks.herokuapp.com/</a></span></p>
+      <p>
+        <span className={styles.invertText}>The API is live at <a href="https://twin-peaks.herokuapp.com/" 
+        >https://twin-peaks.herokuapp.com/</a></span>
+      </p>
 
-      Routes from this API return two types of
-      data, Character information and Quotes. Querry the specific routes
-      provided to return data. The two paths are listed below, each of which
-      {/* eslint-disable-next-line react/no-unescaped-entities */}
-      provides an array of all of that path's respective data:
+      <p>
+        Routes from this API return two types of
+        data, Character information and Quotes. Querry the specific routes
+        provided to return data. The two paths are listed below, each of which
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        provides an array of all of that path's respective data:
+      </p>
 
       <p>
         <span className={styles.invertText}>basic routes:</span>
         <ul>
-          <li>https://twin-peaks.herokuapp.com/api/v1/characters</li>
-          <li>https://twin-peaks.herokuapp.com/api/v1/quotes</li>
+          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters</li>
+          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/quotes</li>
         </ul>
+      </p>
+
+      <p>
+        The Routes below return sorted data, either single data items that are specifically
+        requested by id, or aggregations of various types, which return things like an
+        indvidual character with all of their questes, or a random quote with the associated
+        character information included. Please play around with them and have fun learning,
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        that's what this REST API is for.
       </p>
 
       <p>
         <span className={styles.invertText}>characters routes</span>
         <ul>
-          <li>https://twin-peaks.herokuapp.com/api/v1/characters/:id</li>
-          <li>https://twin-peaks.herokuapp.com/api/v1/characters/randomCharacter</li>
-          <li>https://twin-peaks.herokuapp.com/api/v1/characters/allCharsAllQuotes</li>
-          <li>https://twin-peaks.herokuapp.com/api/v1/characters/characterWithQuotes/:id</li>
+          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters/:id</li>
+          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters/randomCharacter</li>
+          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters/allCharsAllQuotes</li>
+          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/characters/characterWithQuotes/:id</li>
         </ul>
       </p>
 
       <p>
         <span className={styles.invertText}>quotes routes:</span>
         <ul>
-          <li>https://twin-peaks.herokuapp.com/api/v1/quotes/:id</li>
-          <li>https://twin-peaks.herokuapp.com/api/v1/quotes/randomQuote</li>
+          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/quotes/:id</li>
+          <li className={styles.codeBlock}>https://twin-peaks.herokuapp.com/api/v1/quotes/randomQuote</li>
         </ul>
       </p>
 
