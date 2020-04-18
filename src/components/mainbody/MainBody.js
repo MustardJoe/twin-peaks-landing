@@ -6,7 +6,9 @@ const MainBody = () => {
     <div className={styles.mainbody}>
       Welcome to Twin Peaks, the REST API, the landing page, by <a
         href="https://www.jonforney.com"
-        target="_blank" rel="noopener noreferrer">me</a>, Jon. 
+        target="_blank" rel="noopener noreferrer">me</a>, Jon. You can view
+        the Github repo for this project <a href="https://github.com/MustardJoe/boat-server"
+        target="_blank" rel="noopener noreferrer">here</a>.
       
       <p>
         <span className={styles.invertText}>The API is live at <a
