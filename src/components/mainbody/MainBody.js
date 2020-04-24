@@ -19,10 +19,10 @@ const MainBody = () => {
 
       <p>
         Routes from this API return two types of
-        data, Character information and Quotes. Querry the specific routes
-        provided to return data. The two paths are listed below, each of which
+        data, Character information and Quotes. Query the specific routes
+        provided to return data. The two paths are listed below
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        provides an array of all of that path's respective data:
+        , each of which provides an array of all of that path's respective data:
       </p>
 
       <p>
@@ -47,10 +47,10 @@ const MainBody = () => {
       <p>
         The Routes below return sorted data, either single data items that are specifically
         requested by id, or aggregations of various types, which return things like an
-        indvidual character with all of their questes, or a random quote with the associated
-        character information included. Please play around with them and have fun learning,
+        individual character with all of their quotes, or a random quote with the associated
+        character information included. Please play around with them and have fun 
         {/* eslint-disable-next-line react/no-unescaped-entities */}
-        that's what this REST API is for.
+        learning, that's what this REST API is for.
       </p>
 
       <p>
@@ -106,12 +106,12 @@ const MainBody = () => {
         *The routes ending in ':id' require a character or quote id (the id supplied by the 
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         MongoDB in the '_id' field for each character and quote entry).
-        To find that information, qerry the two main routes.
+        To find that information, query the two main routes.
       </p>
 
       <p>
         Please note, the information regarding how to consume this site
-        assumes the user is familure with the basic REST API concept. If you would
+        assumes the user is familiar with the basic REST API concept. If you would
         like more information on the basics of this topic, please head over 
         to <a href="https://restfulapi.net/"
           target="_blank" rel="noopener noreferrer">https://restfulapi.net/</a> to
