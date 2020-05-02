@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Twin Peaks, the REST API!
 
-## Available Scripts
+**General Info:** I am a huge fan of the David Lynch TV show Twin Peaks. I also love working on server-side JavaScript projects. REST APIs are an increasingly popular way to provide data to (and otherwise interface with) client-side and other services in a way that is friendly, tech-stack agnositc, and easy to consume. At some point I noticed there was no REST API for Twin Peaks related content, so I made a mental note to eventually correct that omission, and thus I now present my Twin Peaks REST API for public consumtion. I hope you enjoy your time in Twin Peaks!
 
-In the project directory, you can run:
+**Data and Available Routes**
+The Twin Peaks REST API contains two categories of data: Character Information and Quotes
+<ul>
+<li>https://twin-peaks.herokuapp.com/api/v1/characters</li>
+<li>https://twin-peaks.herokuapp.com/api/v1/characters/:id</li>
+<li>https://twin-peaks.herokuapp.com/api/v1/characters/randomCharacter</li>
+<li>https://twin-peaks.herokuapp.com/api/v1/characters/allCharsAllQuotes</li>
+<li>https://twin-peaks.herokuapp.com/api/v1/characters/characterWithQuotes/:id</li>
+</ul>
+<ul>
+<li>https://twin-peaks.herokuapp.com/api/v1/quotes</li>
+<li>https://twin-peaks.herokuapp.com/api/v1/quotes/:id</li>
+<li>https://twin-peaks.herokuapp.com/api/v1/quotes/randomQuote</li>
+</ul>
 
-### `yarn start`
+https://twin-peaks.herokuapp.com/api/v1/quotes
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Further Info:**  If you enjoy Twin Peaks, the REST API, please consider checking out more of <a href="https://github.com/MustardJoe">my projects on GitHub</a>, or at my homepage, <a href="https://wwww.jonforney.com">https://www.jonforney.com/</a>.  My linkdIn page is available at <a href="https://www.linkedin.com/in/jon-forney/">https://www.linkedin.com/in/jon-forney/</a>.  Please feel free to contact me with your professional opportunities.
