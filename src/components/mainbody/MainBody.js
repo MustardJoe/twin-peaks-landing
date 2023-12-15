@@ -4,11 +4,23 @@ import styles from './mainbody.module.css';
 const MainBody = () => {
   return (
     <div className={styles.mainbody}>
+      <p>
+      This project is currently offline. Originally the API backend was hosted on Heroku,
+      and made use of a free MongoDB plugin. At some point after creation, the MongoDB plugin
+      was purchased by Heroku and then stopped being free, at which point the DB for this
+      project was destroyed. Currently exploring a possible AWS-hosted solution, but time and
+      cost make this a low priority at the moment. None the less, I am still very happy to
+      chat about this project! -Jon
+      </p>
+
+      <p>
+
       Welcome to Twin Peaks, the REST API, the landing page, by <a
-        href="https://www.jonforney.com"
-        target="_blank" rel="noopener noreferrer">me</a>, Jon. You can view
+          href="https://www.jonforney.com"
+          target="_blank" rel="noopener noreferrer">me</a>, Jon. You can view
         the Github repo for this project <a href="https://github.com/MustardJoe/boat-server"
-        target="_blank" rel="noopener noreferrer">here</a>.
+          target="_blank" rel="noopener noreferrer">here</a>.
+      </p>
       
       <p>
         <span className={styles.invertText}>The API is live at <a

@@ -1,4 +1,6 @@
 # Welcome to Twin Peaks, the REST API!
+**API OFFLINE:** This project is currently offline. Originally the API backend was hosted on Heroku, and made use of a free MongoDB plugin. At some point after creation, the MongoDB plugin was purchased by Heroku and then stopped being free, at which point the DB for this project was destroyed. Currently exploring a possible AWS-hosted solution, but time and cost make this a low priority at the moment. None the less, I am still very happy to chat about this project!
+
 
 **General Info:** I am a huge fan of the David Lynch TV show Twin Peaks. I also love working on server-side JavaScript projects. REST APIs are an increasingly popular way to provide data to (and otherwise interface with) client-side and other services in a way that is friendly, tech-stack agnositc, and easy to consume. At some point I noticed there was no REST API for Twin Peaks related content, so I made a mental note to eventually correct that omission, and thus I now present my Twin Peaks REST API for public consumtion. I hope you enjoy your time in Twin Peaks!
 
